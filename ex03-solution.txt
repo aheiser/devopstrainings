@@ -1,0 +1,17 @@
+1. echo $USER	- display info about the current user
+
+2. echo $SHELL	- display info about the current user's shell
+
+3. cat /etc/passwd | grep $USER	 - to verify previous results
+
+4. who > ex03-myfile1
+
+5. more ex03-myfile1
+
+6. date; who > ex03-myfile2
+
+7. sed 's/^.//' ex02-my-table	- delete the first character in each line
+
+8. sed 's/.$//' ex02-my-table	- delete the character before the last character in each line
+
+9. sed 's/\([0-9]*\)\t\([a-z]*\)/\2\t\1/' ex02-my-table	- swap the first and second words in each line
