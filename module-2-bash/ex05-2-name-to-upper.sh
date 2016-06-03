@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Shell script that accepts one or mor file name as the arguments and convers all of the to upprtcase, checks if is the file in the current directory.
+# Shell script that accepts one or more file name(s) as the arguments and convers all of the to upprtcase, checks if is the file in the current directory.
 
 if (( $# == 0 )); then 
 	printf "Usage of the command: scriptname file1 file2 ...\n"
