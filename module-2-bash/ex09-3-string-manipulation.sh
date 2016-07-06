@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Shell script perform the following string operations:
+# Shell script performs the following string operations:
 #	
-#	a) to extract a sub string from a given string;
-# 	b) to find the lingth of a given string.
+#	  a) to extract a substring from a given string;
+# 	b) to find the length of a given string.
 #
 
 printf "Enter a string: "
