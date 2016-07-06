@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Shell script accepts thow integers as its arguments and computes the balue of the firs number raised to the  power of the second number.
+# Interactive copy/remove/rename/link shell programm.
 
 printf "Enter the file name: "
 read file 
@@ -8,7 +8,7 @@ read file
 printf "Enter new file name: "
 read new 
 
-printf "Enter the command(copy, remove, rename of link): "
+printf "Enter the command(copy, remove, rename or link): "
 read command
 
 case "$command" in
