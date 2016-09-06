@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Shell script accepts thow integers as its arguments and computes the balue of the firs number raised to the  power of the second number.
+# Shell script accepts integers as its arguments and computes the balue of the firs number raised to the  power of the second number.
 
 printf "Enter the base: "
 read base
